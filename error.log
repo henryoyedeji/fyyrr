@@ -1,0 +1,169 @@
+
+2023-03-19 21:32:28,737 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:537]
+2023-03-20 00:36:09,068 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:37:17,558 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 463, in shows
+    for show, artist, venue in all_shows:
+TypeError: cannot unpack non-iterable Show object
+2023-03-20 00:37:17,916 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 463, in shows
+    for show, artist, venue in all_shows:
+TypeError: cannot unpack non-iterable Show object
+2023-03-20 00:37:28,164 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 463, in shows
+    for show, artist, venue in all_shows:
+TypeError: cannot unpack non-iterable Show object
+2023-03-20 00:37:28,531 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 463, in shows
+    for show, artist, venue in all_shows:
+TypeError: cannot unpack non-iterable Show object
+2023-03-20 00:38:27,556 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 463, in shows
+    for show in all_shows:
+TypeError: cannot unpack non-iterable Show object
+2023-03-20 00:38:30,276 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 463, in shows
+    for show in all_shows:
+TypeError: cannot unpack non-iterable Show object
+2023-03-20 00:38:40,138 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:38:45,199 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 480, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\templates\pages\shows.html", line 9, in block 'content'
+    <h4>{{ show.start_time|datetime('full') }}</h4>
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 90, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2023-03-20 00:38:47,230 ERROR: Exception on /shows [GET] [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py:1744]
+Traceback (most recent call last):
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 480, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\templates\pages\shows.html", line 9, in block 'content'
+    <h4>{{ show.start_time|datetime('full') }}</h4>
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py", line 90, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "C:\Users\henry\PycharmProjects\pythonProject\fyyrr\venv\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2023-03-20 00:40:56,142 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:41:37,251 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:43:45,657 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:44:35,459 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:45:13,871 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:53:39,551 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:532]
+2023-03-20 00:56:38,834 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:522]
+2023-03-20 01:09:04,992 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:522]
+2023-03-20 01:10:18,232 INFO: errors [in C:\Users\henry\PycharmProjects\pythonProject\fyyrr\app.py:522]
