@@ -7,7 +7,10 @@ class Config(object):
     basedir = os.path.abspath(os.path.dirname(__file__))
 
     # Enable debug mode.
-    os.environ['FLASK_DEBUG'] = 'False'
+    os.environ['FLASK_DEBUG'] = 'True'
+
+    # SQLALCHEMY_TRACK_MODIFICATIONS
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Connect to the database
 
