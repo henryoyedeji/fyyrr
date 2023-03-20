@@ -7,7 +7,7 @@ class Config(object):
     basedir = os.path.abspath(os.path.dirname(__file__))
 
     # Enable debug mode.
-    os.environ['FLASK_DEBUG'] = 'True'
+    os.environ['FLASK_DEBUG'] = 'False'
 
     # Connect to the database
 
